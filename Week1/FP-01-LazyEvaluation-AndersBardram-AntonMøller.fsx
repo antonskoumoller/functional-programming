@@ -1,7 +1,5 @@
-module a1
-
 // 1.1
-let sqr (n: float) = n * n
+let sqr (n:int) = n * n
 // 1.2
 let pow a b = System.Math.Pow(a, b)
 
@@ -9,7 +7,7 @@ let pow a b = System.Math.Pow(a, b)
 let g n = n + 4
 
 // 1.4 / HR 1.2
-let h(x:float, y:float) = System.Math.Sqrt(sqr x + sqr y)
+let h(x , y ) = System.Math.Sqrt(System.Math.Sqrt(x) + System.Math.Sqrt(y))
 
 // 1.5 / HR 1.4
 let rec f = function
@@ -42,7 +40,9 @@ let rec power = function
     | (_,0) -> 1.0 
     | (x,n) -> x * power(x,n-1)
 
-// Cannot fact a negative number??
+// Cannot fact a negative number, though it would return an int, but with negative number it throws and exception.
+// Therefore the expression would be of type: (float * int)
+
 (System.Math.PI, fact -1)
 
 // This is an int
@@ -82,3 +82,4 @@ let rec dupn (text:string) n =
     match (text, n) with
     | (text,0) -> ""
     | (text, n) -> text + dupn text (n-1)
+    
