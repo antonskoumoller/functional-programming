@@ -1,0 +1,6 @@
+{
+    "FSharp.inlayHints.enabled": true,
+    "FSharp.inlayHints.typeAnnotations": true,
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "FSharp.inlayHints.parameterNames": true
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "s/y3+5Ve4VAGf6ZJ2SSJn0XrAa/S93OVVbyVyvPKOyEf2VZ+X1zRMjNWRqVa5TG7KIAnzWII/JDAGr4NbDPXGA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\anton\\Desktop\\functional-programming\\VectorExample\\src\\VectorSimple\\VectorSimple.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anton\\.nuget\\packages\\fsharp.core\\8.0.101\\fsharp.core.8.0.101.nupkg.sha512"
+  ],
+  "logs": []
+}
