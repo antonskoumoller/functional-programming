@@ -10,7 +10,7 @@ open System.Reflection
 [<assembly: System.Reflection.AssemblyCompanyAttribute("VectorSimple")>]
 [<assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")>]
 [<assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")>]
-[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+965b15a0ebb8ea52e4f340042725bd9ba81adc0f")>]
+[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b83497b4c4fe77a8e430b67b4254095616a0d629")>]
 [<assembly: System.Reflection.AssemblyProductAttribute("VectorSimple")>]
 [<assembly: System.Reflection.AssemblyTitleAttribute("VectorSimple")>]
 [<assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")>]
